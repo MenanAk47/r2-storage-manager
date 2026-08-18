@@ -36,7 +36,7 @@ Unlike Amazon AWS S3, Cloudflare R2 has **zero egress bandwidth fees**, making i
 ### Option 1: Run with Docker Compose (Recommended)
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/r2-storage-manager.git
+git clone https://github.com/MenanAk47/r2-storage-manager.git
 cd r2-storage-manager
 
 # 2. Create your .env file and fill in your Cloudflare credentials
@@ -52,7 +52,7 @@ Open **`http://localhost:3000`** in your browser!
 ### Option 2: Run with Node.js
 ```bash
 # 1. Clone & install
-git clone https://github.com/your-username/r2-storage-manager.git
+git clone https://github.com/MenanAk47/r2-storage-manager.git
 cd r2-storage-manager
 npm install
 
@@ -280,12 +280,18 @@ services:
 | `Escape` | Close active modal, inspector drawer, or clear selection |
 | `Delete` | Trigger batch delete confirmation for selected items |
 
+## 👤 Author
+
+**MenanAk47**
+- GitHub: [@MenanAk47](https://github.com/MenanAk47)
+- Repository: [r2-storage-manager](https://github.com/MenanAk47/r2-storage-manager)
+
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+Distributed under the **MIT License** by [MenanAk47](https://github.com/MenanAk47). See [`LICENSE`](LICENSE) for more information.
 
 <div align="center">
-  <sub>Built with ❤️ for the Cloudflare & self-hosting open-source community.</sub>
+  <sub>Built with ❤️ by <a href="https://github.com/MenanAk47">MenanAk47</a> for the Cloudflare & self-hosting open-source community.</sub>
 </div>
