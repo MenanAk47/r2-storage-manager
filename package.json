@@ -1,0 +1,37 @@
+{
+  "name": "r2-storage-manager",
+  "version": "1.0.0",
+  "description": "High-performance, desktop-class web file manager for Cloudflare R2 object storage with virtual folders, multi-file drag-and-drop queue, live previews, and batch operations.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "cloudflare-r2",
+    "r2",
+    "s3",
+    "file-manager",
+    "cloud-storage",
+    "object-storage",
+    "storage-manager",
+    "express",
+    "nodejs",
+    "file-uploader"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1112.0",
+    "@aws-sdk/lib-storage": "^3.1112.0",
+    "@aws-sdk/s3-request-presigner": "^3.1112.0",
+    "archiver": "^8.0.0",
+    "busboy": "^1.6.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "mime-types": "^3.0.2"
+  }
+}
